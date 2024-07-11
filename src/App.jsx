@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <Header/>
-      
       <main className="main">
         <Routes>
           <Route index element={<Home />}></Route>
