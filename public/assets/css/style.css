@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+
+}
+
+.icon-menu-custom svg path {
+    fill: #FFF;
+}
