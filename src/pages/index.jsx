@@ -1,10 +1,11 @@
+import Analysts from './analysts/Analysts'
+
 function Home() {
-  
-    return (
-      <>
-        <h1>Home</h1>
-      </>
-    )
-  }
-  
-  export default Home
+  return (
+    <>
+      <Analysts />
+    </>
+  )
+}
+
+export default Home
