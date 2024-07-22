@@ -3,18 +3,22 @@ import Home from './pages'
 import Header from './components/header'
 import Footer from './components/footer'
 import '../public/assets/css/style.css'
+import Analysts from './pages/Analysts'
+import Adcademy from './pages/Adcademy'
 function App() {
-
   return (
     <>
-      <Header/>
+      <Header />
       <main className="main">
         <Routes>
-          <Route index element={<Home />}></Route>
+          <Route path="/" element={<Home />}>
+            <Route path="/analysts" element={<Analysts />} />
+            <Route path="/adcademy" element={<Adcademy />} />
+          </Route>
         </Routes>
       </main>
 
-      <Footer/>
+      <Footer />
     </>
   )
 }
