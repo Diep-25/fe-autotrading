@@ -1,7 +1,6 @@
 
-import React from 'react';
-import logo from '../../../public/assets/images/logo.png';
-import iconMenu from '../../../public/assets/images/svgs/icon-menu.svg';
+import logo from '../../public/assets/images/logo.png';
+import iconMenu from '../../public/assets/images/svgs/icon-menu.svg';
 
 function Header() {
 
