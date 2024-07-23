@@ -1,6 +1,6 @@
 import ItemAdcademy from '../components/ItemAdcademy'
 
-function Adcademy() {
+function Academy() {
   return (
     <div className="flex flex-col px-6 pb-6 bg-stone-50 max-md:px-5">
       <div className="flex overflow-hidden relative flex-col items-center px-16 pt-16 mt-6 min-h-[956px] max-md:px-5 max-md:max-w-full">
@@ -124,4 +124,4 @@ function Adcademy() {
     </div>
   )
 }
-export default Adcademy
+export default Academy
