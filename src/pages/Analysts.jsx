@@ -16,12 +16,16 @@ function Analysts() {
                 Analysts
               </div>
               <div className="flex gap-1 justify-between items-center self-center p-1 mt-10 text-sm font-medium leading-5 rounded-xl border border-solid bg-neutral-100 border-neutral-200 text-stone-500">
-                <div className="self-stretch my-auto py-2 px-4">All</div>
-                <div className="self-stretch my-auto py-2 px-4">Stock</div>
-                <div className="self-stretch my-auto py-2 px-4">Crypto</div>
-                <div className="self-stretch my-auto py-2 px-4 text-black rounded-lg shadow-lg">
+                <button className="self-stretch my-auto py-2 px-4">All</button>
+                <button className="self-stretch my-auto py-2 px-4">
+                  Stock
+                </button>
+                <button className="self-stretch my-auto py-2 px-4">
+                  Crypto
+                </button>
+                <button className="self-stretch my-auto py-2 px-4 text-black rounded-lg shadow-lg">
                   Forex
-                </div>
+                </button>
               </div>
             </div>
           </div>

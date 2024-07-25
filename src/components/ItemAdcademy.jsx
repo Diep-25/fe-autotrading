@@ -1,4 +1,3 @@
-
 const ItemAdcademy = () => {
   return (
     <>
@@ -20,9 +19,9 @@ const ItemAdcademy = () => {
             specific to the crypto market, such as arbitrage, margin trading,
             and using bots.
           </div>
-          <div className=" cursor-pointer text-center px-5 py-3 mt-5 text-black bg-white rounded-xl border border-black border-solid">
+          <button className=" cursor-pointer text-center px-5 py-3 mt-5 text-black bg-white rounded-xl border border-black border-solid">
             Learn More
-          </div>
+          </button>
         </div>
       </div>
     </>

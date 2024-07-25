@@ -1,8 +1,12 @@
+import DetailsCopytrade from '../components/DetailsCopytrade'
 import Academy from '../pages/Academy'
 import Analysts from '../pages/analysts/Analysts'
 import Contact from '../pages/Contact'
 import CopyTrade from '../pages/CopyTrade'
+import Login from '../pages/Login'
+import MaketPlace from '../pages/MaketPlace'
 import Products from '../pages/Products'
+import Register from '../pages/Register'
 import Home from './pages'
 
 export const routes = [
@@ -40,5 +44,20 @@ export const routes = [
     path: '/contact',
     page: <Contact />,
     isShowHeader: true
+  },
+  {
+    path: '/maketpalce',
+    page: <MaketPlace />,
+    isShowHeader: true
+  },
+  {
+    path: '/login',
+    page: <Login />,
+    isShowHeader: false
+  },
+  {
+    path: '/register',
+    page: <Register />,
+    isShowHeader: false
   }
 ]

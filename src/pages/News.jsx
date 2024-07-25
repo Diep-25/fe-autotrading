@@ -16,12 +16,16 @@ function News() {
                 News
               </div>
               <div className="flex gap-1 justify-between items-center self-center p-1 mt-10 text-sm font-medium leading-5 rounded-xl border border-solid bg-neutral-100 border-neutral-200 text-stone-500">
-                <div className="self-stretch my-auto py-2 px-4">All</div>
-                <div className="self-stretch my-auto py-2 px-4">Stock</div>
-                <div className="self-stretch my-auto py-2 px-4">Crypto</div>
-                <div className="self-stretch my-auto py-2 px-4 text-black rounded-lg shadow-lg">
+                <button className="self-stretch my-auto py-2 px-4">All</button>
+                <button className="self-stretch my-auto py-2 px-4">
+                  Stock
+                </button>
+                <button className="self-stretch my-auto py-2 px-4">
+                  Crypto
+                </button>
+                <button className="self-stretch my-auto py-2 px-4 text-black rounded-lg shadow-lg">
                   Forex
-                </div>
+                </button>
               </div>
             </div>
           </div>
@@ -35,7 +39,7 @@ function News() {
         </div>
       </div>
       {/* content */}
-      <div className="flex flex-col justify-end px-10 py-9 rounded-3xl shadow-sm backdrop-blur-[2px] bg-white bg-opacity-70 max-md:px-5">
+      <div className="flex flex-col justify-end px-10 py-9 rounded-3xl shadow-sm mt-10 backdrop-blur-[2px] bg-white bg-opacity-70 max-md:px-5">
         <div className="max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
             <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
