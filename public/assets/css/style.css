@@ -12,3 +12,12 @@
 .icon-menu-custom svg path {
     fill: #FFF;
 }
+
+.custom-gradient {
+    @apply bg-gradient-to-r from-[rgba(252,95,43,0.24)] to-[rgba(19,193,130,0.24)];
+}
+
+.bg-footer {
+    background: #ffffff8a;
+    border-radius: 32px 32px 0px 0px;
+}
