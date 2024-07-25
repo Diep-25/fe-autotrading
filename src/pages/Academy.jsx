@@ -2,14 +2,14 @@ import ItemAdcademy from '../components/ItemAdcademy'
 
 function Academy() {
   return (
-    <div className="flex flex-col px-6 pb-6 bg-stone-50 max-md:px-5">
+    <div className="flex flex-col px-6 pb-6 bg-stone-50 max-md:px-5 relative">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/4b078dc5faabd157fbe5b47b202d7973f005f06cf47a45a63cd24c6f053fe098?apiKey=3e4bab1690d64b71a08812886842dfab&"
+        className="object-cover absolute inset-0 size-full"
+      />
       <div className="flex overflow-hidden relative flex-col items-center px-16 pt-16 mt-6 min-h-[956px] max-md:px-5 max-md:max-w-full">
-        <img
-          loading="lazy"
-          src="/public/assets/images/background.png"
-          className="object-cover absolute inset-0 size-full"
-        />
-        <div className="flex relative z-10 flex-col -mb-6 w-full max-w-[1340px] max-md:mb-2.5 max-md:max-w-full">
+        <div className="flex z-10 flex-col -mb-6 w-full max-w-[1340px] max-md:mb-2.5 max-md:max-w-full">
           <div className="self-center max-w-full w-[848px]">
             <div className="flex gap-5 max-md:flex-col max-md:gap-0">
               <div className="flex flex-col w-[22%] max-md:ml-0 max-md:w-full">
@@ -25,12 +25,18 @@ function Academy() {
                     Academy
                   </div>
                   <div className="flex gap-1 justify-between items-center self-center p-1 mt-10 text-sm font-medium leading-5 rounded-xl border border-solid bg-neutral-100 border-neutral-200 text-stone-500">
-                    <div className="self-stretch my-auto py-2 px-4">All</div>
-                    <div className="self-stretch my-auto py-2 px-4">Stock</div>
-                    <div className="self-stretch my-auto py-2 px-4">Crypto</div>
-                    <div className="self-stretch my-auto py-2 px-4 text-black rounded-lg shadow-lg">
+                    <button className="self-stretch my-auto py-2 px-4">
+                      All
+                    </button>
+                    <button className="self-stretch my-auto py-2 px-4">
+                      Stock
+                    </button>
+                    <button className="self-stretch my-auto py-2 px-4">
+                      Crypto
+                    </button>
+                    <button className="self-stretch my-auto py-2 px-4 text-black rounded-lg shadow-lg">
                       Forex
-                    </div>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -66,9 +72,9 @@ function Academy() {
                     basics of forex trading to advanced trading strategies and
                     risk management.
                   </div>
-                  <div className="justify-center text-center items-center px-5 py-3 mt-12 text-black bg-white rounded-xl border border-black border-solid max-md:mt-10">
+                  <button className="justify-center text-center items-center px-5 py-3 mt-12 text-black bg-white rounded-xl border border-black border-solid max-md:mt-10">
                     Learn More
-                  </div>
+                  </button>
                 </div>
               </div>
               <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
@@ -89,9 +95,9 @@ function Academy() {
                     teaching how to read charts, use indicators, and identify
                     trading patterns.
                   </div>
-                  <div className="justify-center items-center px-5 py-3 mt-12 text-black bg-white rounded-xl border border-black border-solid max-md:mt-10">
+                  <button className=" justify-center items-center text-center px-5 mt-12 py-3 text-black bg-white rounded-xl border border-black border-solid max-md:mt-10">
                     Learn More
-                  </div>
+                  </button>
                 </div>
               </div>
               <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
@@ -112,9 +118,9 @@ function Academy() {
                     up a crypto wallet, choosing a trading platform, and
                     executing trades.
                   </div>
-                  <div className="justify-center items-center px-5 py-3 mt-16 text-black bg-white rounded-xl border border-black border-solid max-md:mt-10">
+                  <button className="justify-center items-center px-5 py-3 mt-16 text-black bg-white rounded-xl border border-black border-solid max-md:mt-10">
                     Learn More
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>

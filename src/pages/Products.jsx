@@ -20,7 +20,7 @@ function Products() {
               <div className="flex flex-col ml-5 w-[63%] max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col grow whitespace-nowrap max-md:mt-10">
                   <div className="text-8xl font-semibold text-center text-black leading-[88px] max-md:text-4xl">
-                    Academy
+                    Products
                   </div>
                   <div className="flex gap-1 justify-between items-center self-center p-1 mt-10 text-sm font-medium leading-5 rounded-xl border border-solid bg-neutral-100 border-neutral-200 text-stone-500">
                     <div className="self-stretch my-auto py-2 px-4 text-black rounded-lg shadow-lg">
@@ -101,7 +101,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-5 my-auto text-base font-medium text-black whitespace-nowrap">
+              <div className="flex justify-around gap-5 my-auto text-base font-medium text-black whitespace-nowrap">
                 <div>10%</div>
                 <div className="text-emerald-500">72%</div>
                 <div>16,000</div>

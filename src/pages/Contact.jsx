@@ -3,7 +3,7 @@ function Contact() {
     <div className="flex flex-col items-center px-6 bg-stone-50 max-md:px-5">
       <div className="flex gap-1 items-center p-1 mt-6 text-sm font-medium leading-5 whitespace-nowrap rounded-xl border border-solid bg-neutral-100 border-neutral-200 text-stone-500">
         <div className="self-stretch px-4 py-2">Mobile</div>
-        <div className="justify-center self-stretch px-4 py-2 text-black rounded-lg shadow-sm">
+        <div className="justify-center self-stretch px-4 py-2 text-black rounded-lg shadow-md">
           Form
         </div>
         <div className="self-stretch px-4 py-2">Email</div>
@@ -17,11 +17,7 @@ function Contact() {
             +84 123456789
           </div>
         </div>
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/f47264237d2cba5b1107994032b5b56730ac91de4a0f7d5b312a0d3a9449751d?apiKey=3e4bab1690d64b71a08812886842dfab&"
-          className="shrink-0 my-auto w-20 border border-solid aspect-[100] border-neutral-200 stroke-[1px] stroke-neutral-200"
-        />
+        
         <div className="flex gap-3">
           <div className="justify-center items-center p-1.5 w-8 h-8 text-sm font-medium leading-5 text-center text-white whitespace-nowrap bg-black rounded-[32px]">
             F
@@ -30,11 +26,7 @@ function Contact() {
             Complete Form
           </div>
         </div>
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/f47264237d2cba5b1107994032b5b56730ac91de4a0f7d5b312a0d3a9449751d?apiKey=3e4bab1690d64b71a08812886842dfab&"
-          className="shrink-0 my-auto w-20 border border-solid aspect-[100] border-neutral-200 stroke-[1px] stroke-neutral-200"
-        />
+        
         <div className="flex gap-3 whitespace-nowrap">
           <div className="justify-center items-center p-1.5 w-8 h-8 text-sm font-medium leading-5 text-center bg-neutral-200 rounded-[32px] text-stone-500">
             E
@@ -55,16 +47,16 @@ function Contact() {
             <div className="flex flex-col w-[22%] max-md:ml-0 max-md:w-full">
               <img
                 loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/322804c66e02945b52b8c6fd50b69600614f8c0c2d074b1f1b4b26361bfa779a?apiKey=3e4bab1690d64b71a08812886842dfab&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/322804c66e02945b52b8c6fd50b69600614f8c0c2d074b1f1b4b26361bfa779a?apiKey=3e4bab1690d64b71a08812886842dfab&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/322804c66e02945b52b8c6fd50b69600614f8c0c2d074b1f1b4b26361bfa779a?apiKey=3e4bab1690d64b71a08812886842dfab&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/322804c66e02945b52b8c6fd50b69600614f8c0c2d074b1f1b4b26361bfa779a?apiKey=3e4bab1690d64b71a08812886842dfab&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/322804c66e02945b52b8c6fd50b69600614f8c0c2d074b1f1b4b26361bfa779a?apiKey=3e4bab1690d64b71a08812886842dfab&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/322804c66e02945b52b8c6fd50b69600614f8c0c2d074b1f1b4b26361bfa779a?apiKey=3e4bab1690d64b71a08812886842dfab&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/322804c66e02945b52b8c6fd50b69600614f8c0c2d074b1f1b4b26361bfa779a?apiKey=3e4bab1690d64b71a08812886842dfab&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/322804c66e02945b52b8c6fd50b69600614f8c0c2d074b1f1b4b26361bfa779a?apiKey=3e4bab1690d64b71a08812886842dfab&"
+                srcSet="../../public/assets/images/image-icon-contact1.png"
                 className="grow shrink-0 mt-96 max-w-full aspect-[0.74] w-[250px] max-md:mt-10"
               />
             </div>
             <div className="flex flex-col ml-5 w-[53%] max-md:ml-0 max-md:w-full">
               <div className="flex relative flex-col p-10 w-full rounded-3xl shadow-sm backdrop-blur-[2px] bg-white bg-opacity-70 max-md:px-5 max-md:mt-10 max-md:max-w-full">
-                <div className="flex justify-center items-center px-16 py-10 rounded-xl max-md:px-5 max-md:max-w-full">
+                <div className="bg-color-rem flex justify-center items-center px-16 py-10 rounded-xl max-md:px-5 max-md:max-w-full">
                   <img
                     loading="lazy"
-                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/621c95fe1017a183ba4317f5a7b7556b15437617761e264eb58f17d3c32c4bd9?apiKey=3e4bab1690d64b71a08812886842dfab&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/621c95fe1017a183ba4317f5a7b7556b15437617761e264eb58f17d3c32c4bd9?apiKey=3e4bab1690d64b71a08812886842dfab&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/621c95fe1017a183ba4317f5a7b7556b15437617761e264eb58f17d3c32c4bd9?apiKey=3e4bab1690d64b71a08812886842dfab&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/621c95fe1017a183ba4317f5a7b7556b15437617761e264eb58f17d3c32c4bd9?apiKey=3e4bab1690d64b71a08812886842dfab&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/621c95fe1017a183ba4317f5a7b7556b15437617761e264eb58f17d3c32c4bd9?apiKey=3e4bab1690d64b71a08812886842dfab&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/621c95fe1017a183ba4317f5a7b7556b15437617761e264eb58f17d3c32c4bd9?apiKey=3e4bab1690d64b71a08812886842dfab&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/621c95fe1017a183ba4317f5a7b7556b15437617761e264eb58f17d3c32c4bd9?apiKey=3e4bab1690d64b71a08812886842dfab&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/621c95fe1017a183ba4317f5a7b7556b15437617761e264eb58f17d3c32c4bd9?apiKey=3e4bab1690d64b71a08812886842dfab&"
+                    srcSet="../../public/assets/images/image-contact.png"
                     className="max-w-full aspect-[0.93] w-[168px]"
                   />
                 </div>
@@ -72,30 +64,31 @@ function Contact() {
                   Contact us
                 </div>
                 <input
-                  type="text"
+                  type="email"
                   placeholder="Email"
                   className="justify-center px-6 py-4 mt-6 text-base font-medium leading-6 whitespace-nowrap bg-white rounded-xl border border-solid border-neutral-200 text-zinc-500 max-md:px-5 max-md:max-w-full"
                 />
                 <input
-                  type="text"
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
                   placeholder="Phone"
                   className="justify-center px-6 py-4 mt-6 text-base font-medium leading-6 whitespace-nowrap bg-white rounded-xl border border-solid border-neutral-200 text-zinc-500 max-md:px-5 max-md:max-w-full"
                 />
-                <input
-                  type="text"
+                <textarea
                   placeholder="Message"
-                  className="justify-center px-6 py-4 mt-6 text-base font-medium leading-6 whitespace-nowrap bg-white rounded-xl border border-solid border-neutral-200 text-zinc-500 max-md:px-5 max-md:max-w-full"
+                  className="justify-center  px-6 py-4 mt-6 text-base font-medium leading-6 whitespace-nowrap bg-white rounded-xl border border-solid border-neutral-200 text-zinc-500 max-md:px-5 max-md:max-w-full"
                 />
-
-                <div className="justify-center px-6 py-4 mt-6 text-base font-medium leading-6 text-center text-white whitespace-nowrap bg-black rounded-xl max-md:px-5 max-md:max-w-full">
+                <button className="justify-center px-6 py-4 mt-6 text-base font-medium leading-6 text-center text-white whitespace-nowrap bg-black rounded-xl max-md:px-5 max-md:max-w-full">
                   Submit
-                </div>
+                </button>
               </div>
             </div>
             <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
               <img
                 loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/99d67d1e4f083b6d5be9752134416ccaeb03654dfbba30b14ad6d7e868db769d?apiKey=3e4bab1690d64b71a08812886842dfab&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/99d67d1e4f083b6d5be9752134416ccaeb03654dfbba30b14ad6d7e868db769d?apiKey=3e4bab1690d64b71a08812886842dfab&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/99d67d1e4f083b6d5be9752134416ccaeb03654dfbba30b14ad6d7e868db769d?apiKey=3e4bab1690d64b71a08812886842dfab&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/99d67d1e4f083b6d5be9752134416ccaeb03654dfbba30b14ad6d7e868db769d?apiKey=3e4bab1690d64b71a08812886842dfab&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/99d67d1e4f083b6d5be9752134416ccaeb03654dfbba30b14ad6d7e868db769d?apiKey=3e4bab1690d64b71a08812886842dfab&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/99d67d1e4f083b6d5be9752134416ccaeb03654dfbba30b14ad6d7e868db769d?apiKey=3e4bab1690d64b71a08812886842dfab&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/99d67d1e4f083b6d5be9752134416ccaeb03654dfbba30b14ad6d7e868db769d?apiKey=3e4bab1690d64b71a08812886842dfab&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/99d67d1e4f083b6d5be9752134416ccaeb03654dfbba30b14ad6d7e868db769d?apiKey=3e4bab1690d64b71a08812886842dfab&"
+                srcSet="../../public/assets/images/image-icon-contact.png"
                 className="shrink-0 self-stretch my-auto max-w-full aspect-square w-[280px] max-md:mt-10"
               />
             </div>
